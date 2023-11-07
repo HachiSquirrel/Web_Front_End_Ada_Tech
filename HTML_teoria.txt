@@ -1,0 +1,67 @@
+**Introdução ao HTML**
+
+O HTML, que significa HyperText Markup Language, é a linguagem de marcação fundamental usada para criar páginas da web. Ele fornece uma estrutura básica para organizar o conteúdo em uma página, usando tags que definem elementos como cabeçalhos, parágrafos, imagens e links. Com o HTML, os desenvolvedores da web podem criar documentos que são interpretados pelos navegadores da web, permitindo que o conteúdo seja exibido de forma estruturada e acessível na internet.
+
+Metainformações: No contexto da web e do HTML, as metainformações estão relacionadas a dados que descrevem o conteúdo de uma página da web, mas não são exibidas diretamente na página. Elas geralmente são usadas para fornecer informações sobre a página que ajudam os motores de busca, redes sociais e navegadores a entenderem e exibirem o conteúdo de maneira adequada.
+
+*Princípios fundamentais:*
+
+A forma, hierarquia, ordem e semântica são princípios fundamentais que guiam a estrutura e organização do HTML, contribuindo para a criação de páginas da web bem estruturadas e acessíveis. 
+
+01 - Forma (Structure):
+A forma refere-se à estrutura básica de uma página HTML. Ela é definida pelos elementos HTML que você utiliza para organizar o conteúdo da página. Isso inclui o uso apropriado de tags para criar uma estrutura lógica e organizada para o conteúdo.
+02 - Hierarquia:
+A hierarquia refere-se à ordem e à relação entre os elementos HTML em uma página. Os elementos são aninhados uns dentro dos outros, formando uma árvore de elementos. A hierarquia ajuda a determinar como os elementos são interpretados e exibidos pelos navegadores. Elementos pai e filhos têm uma relação hierárquica, e a hierarquia afeta a apresentação visual e o comportamento do conteúdo.
+03 - Ordem:
+A ordem dos elementos no código HTML é importante para a interpretação correta do conteúdo. A ordem dos elementos também afeta a acessibilidade, SEO e a forma como o conteúdo é carregado e processado.
+04 -Semântica:
+A semântica refere-se à atribuição de significado aos elementos HTML com base em suas funções e conteúdo. A escolha adequada de elementos HTML semânticos ajuda os motores de busca e leitores de tela a compreender o conteúdo e melhora a acessibilidade. 
+
+*Tags:*
+São elementos que são usados para marcar e definir partes do conteúdo de uma página da web. As tags são cercadas por colchetes angulares (< e >) e são compostas por um nome que identifica o tipo de elemento que está sendo definido. Elas são fundamentais para a estruturação e formatação do conteúdo de uma página da web. Cada tag HTML tem uma função específica e controla como o conteúdo é exibido ou interpretado pelos navegadores.
+
+Elementos:
+Tag de Abertura (Opening Tags):
+As tags de abertura são usadas para iniciar a marcação de um elemento HTML.
+Elas consistem no nome do elemento, cercado por colchetes angulares, como <elemento>.
+As tags de abertura geralmente incluem atributos que fornecem informações adicionais sobre o elemento.
+Exemplos de tags de abertura incluem <p>, <a>, <img>, <h1>, etc.
+Conteúdo
+Tag de Fechamento (Closing Tags):
+As tags de fechamento são usadas para encerrar a marcação de um elemento HTML.
+Elas têm uma estrutura semelhante às tags de abertura, mas incluem uma barra (/) antes do nome do elemento, como </elemento>.
+Não são todos os elementos HTML exigem tags de fechamento. Alguns, como <img>, não têm conteúdo interno e, portanto, não precisam de uma tag de fechamento.
+Exemplos de tags de fechamento incluem </p>, </a>, </h1>, etc.
+
+Exemplo final:
+    <p>Este é um parágrafo de exemplo.</p> 
+        
+        Atributos:
+São informações adicionais que podem ser incluídas em tags HTML para fornecer detalhes, configurações e funcionalidades específicas para os elementos HTML. Os atributos são definidos dentro da tag de abertura do elemento, após o nome do elemento, e são compostos por um nome e um valor, separados por um sinal de igual (=). Alguns atributos são obrigatórios, enquanto outros são opcionais, dependendo do elemento HTML. 
+            
+            Valores:
+são informações específicas fornecidas aos atributos de elementos para definir configurações, propriedades e comportamentos. Cada atributo tem um conjunto de valores possíveis que são aceitos para cumprir sua função. Os valores devem estar
+envoltos em aspas. 
+
+
+Estrutura básica de um documento HTML:
+                HTML
+    head                    body
+                        
+head: A seção <head> contém metainformações sobre a página, como o título da página, metatags, links para arquivos externos (CSS, JavaScript) e outras informações que não são diretamente visíveis na página.
+body: A seção <body> contém o conteúdo visível da página, como texto, imagens, links e outros elementos. É aqui que você insere o conteúdo que os visitantes verão na página.
+
+*Meta Tag*
+ 
+ A meta tag <meta name="viewport" content="width=device-width, initial-scale=1.0"> é usada em páginas da web para controlar a forma como o conteúdo é exibido em dispositivos móveis. 
+
+width=device-width: Este atributo faz com que a largura da janela de visualização seja igual à largura do dispositivo, permitindo que o conteúdo se ajuste ao tamanho da tela.
+
+initial-scale=1.0: Isso define o nível de zoom inicial da página como 1.0, o que significa que a página é exibida sem ampliação ou redução quando carregada em dispositivos móveis.
+
+
+* Outros *
+Ferramenta DevTools: inspecionar o conteúdo da página. Podendo ver a html da página.
+Documentação HTML MDN : developer.mozilla.org/pr-BR/docs/HTML
+Lorem dentro de tags +tab gera várias palavras aleatorias. 
+
