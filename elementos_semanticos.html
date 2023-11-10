@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elementos Semânticos</title>
+</head>
+
+<body>
+    <!-- Sempre se começa com o header - cabeçalho -->
+    <header>
+        <nav>Barra de navegação.</nav>
+    </header>
+    <!-- main - conteúdo principal -->
+    <main>
+        Conteúdo principal.
+    </main>
+    <!-- aside - barra lateral , pode ficar fora ou dentro do main-->
+    <section id="About-me">
+        <!-- figure - encapsular conteúdo -->
+        <figure>
+            <img src="https://avatars.githubusercontent.com/u/127890009?v=4" alt="Luisa" width="200">
+            <!-- figcaption - legenda do conteúdo -->
+            <figcaption>
+                Foto de perfil do github
+            </figcaption>
+        </figure>
+    </section>
+    <!-- section -  definir seções  -->
+    <section id="Portfolio"> <!--id é unico, não se pode usar novamente dentro da mesma página.-->
+        Portfólio
+    </section>
+    <section id="blog">
+        <!-- article- para postagens -->
+        <article>
+            <header>Pode colocar uma imagem para postagem</header>
+            <main>conteúdo da postagem</main>
+            <footer>Autor e a data</footer>
+        </article>
+    </section>
+    <aside>
+        Conteúdo da barra lateral.
+    </aside>
+    <!-- footer - rodapé -->
+    <footer>
+        Desenvolvido por Luisa Cassini.
+    </footer>
+</body>
+
+</html>
+
+<!-- termos visuais se muda com o CSS , em semânticos é bastante importante-->
