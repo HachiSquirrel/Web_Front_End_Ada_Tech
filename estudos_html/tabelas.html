@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+</head>
+
+<body>
+    <h1>Tabelas</h1>
+    <main>
+        <section id="Estudantes">
+            <h2>Alunos</h2>
+            <!-- Criar tabela -->
+            <table border="2"> <!--borda da tabela, se alteram com o número-->
+                <!-- cabeçalho da sua tabela -->
+                <thead>
+                    <!-- tr para criar uma linha dentro da tabela -->
+                    <tr>
+                        <th>Nome</th> <!-- th apenas no thead, deixa centralizado e negrito-->
+                        <th>E-mail</th>
+                        <th>Matrícula</th>
+                    </tr>
+                </thead>
+                <!-- Corpo da sua tabela -->
+                <tbody>
+                    <tr>
+                        <td>Carol Danvers</td> <!-- td = tabledata-->
+                        <td>carol.danvers@email.com</td>
+                        <td>01</td>
+                    </tr>
+                    <tr>
+                        <td>Peter Parker</td>
+                        <td>peter.parker@email.com</td>
+                        <td>02</td>
+                    </tr>
+                    <tr>
+                        <td>Tony Stark</td>
+                        <td>tonystark@email.com</td>
+                        <td>03</td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+        <section id="Financeiro">
+            <h2>Controle Financeiro</h2>
+            <table border="4">
+                <thead>
+                    <tr>
+                        <th>Data</th>
+                        <th>Tipo</th>
+                        <th>Descrição</th>
+                        <th>Valor</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <!-- rowspan = mesclar linhas -->
+                        <td rowspan="2">15/06/2023</td>
+                        <td>Despesa</td>
+                        <td>Almoço</td>
+                        <td>R$35,00</td>
+                    </tr>
+                    <tr>
+                        <!-- apagar a linha para fazer a mesclagem com o rowspan -->
+                        <td>Receita</td>
+                        <td>Salário</td>
+                        <td>3.768,00</td>
+                    </tr>
+                </tbody>
+        </section>
+    </main>
+</body>
+
+</html>
+
+<!--  se quiser mesclar colunas:colspan e o número de colunas e tirar uma coluna -->
