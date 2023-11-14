@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #db7093;
+    /* Cor da fonte */
+    background-color: #add8e6;
+    /* Cor do fundo da fonte */
+    font-size: 52px;
+    /* Tamanho da fonte */
+    font-weight: 600;
+    /* Espessura da fonte */
+    font-style: italic;
+    /* tipo de fonte */
+    text-decoration: wavy;
+    /* efeitos no texto */
+    text-transform: none;
+    /* pode colocar tudo maisculo ou minuscula etc */
+    text-align: center;
+}
+
+
+
+/* para falar que é classe precisa colocar um ponto antes ex: .bg */
+.bg-img {
+    height: 350px;
+    width: 100%;
+    background-color: #add8e6;
+    background-image: url('https://images.unsplash.com/photo-1607478900766-efe13248b125?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    /* attachment: não funciona em todos navegadores */
+    /* cover: corta
+    contain: repete a imagem até preencher
+    no-reapeat: sem repetir */
+}
+
+p {
+    font-size: 24px;
+    text-align: justify;
+    /* deixa o espaçamento mais agradavel */
+    text-indent: 40px;
+    /* só funciona na primeira linha */
+}

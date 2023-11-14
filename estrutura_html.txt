@@ -1,0 +1,28 @@
+Estrutura básica do HTML:
+
+"   <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+    
+    </body>
+    </html>     "
+
+<!DOCTYPE html>: indica que o documento é um HTML5.
+
+<html lang="pt-br">: Define o início do HTML e especifica o idioma - nesse caso está como português do Brasil.
+
+<head>: Contém informações sobre o documento, como metadados, links para estilos, scripts, etc. Mas não contém o conteúdo visível diretamente exibido na página.
+
+    <meta charset="UTF-8">: Define o conjunto de caracteres como UTF-8.
+        O que é UFT-8? É uma codificação de caracteres que representa praticamente todos os caracteres do mundo em uma forma que pode ser usada por computadores.
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">: Define a largura da área de visualização para o tamanho do dispositivo e define a escala inicial para 1.0 (não ampliada).
+
+    <title>Document</title>: Define o título da página exibido na barra de título ou guia do navegador.
+
+<body>: Contém o conteúdo visível da página, como texto, imagens, vídeos, formulários, etc. 
